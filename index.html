@@ -3,24 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Full Screen Image</title>
+  <title>Full Screen Background</title>
   <style>
     html, body {
       margin: 0;
       padding: 0;
       height: 100%;
       width: 100%;
-      background-color: #000;
+      background: #000;
     }
-    img {
-      width: 100vw;
-      height: 100vh;
-      object-fit: cover;
-      display: block;
+    body {
+      background-image: url('39df8a4e-01d0-4590-9bed-bd8557a7c811.png');
+      background-size: contain; /* or 'cover' if you prefer full coverage */
+      background-repeat: no-repeat;
+      background-position: center center;
     }
   </style>
 </head>
 <body>
-  <img src="https://i.postimg.cc/wMRL5qR4/IMG-6807.jpg" alt="Full Screen Image" />
 </body>
 </html>
